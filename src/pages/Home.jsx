@@ -30,7 +30,7 @@ const Home = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-[url('University.jpg')] bg-gray-300 bg-opacity-50 bg-cover">
+    <div className="min-h-screen bg-[url('University.jpg')] bg-white bg-opacity-50 bg-cover">
       {/* Hero section */}
       <div className="relative overflow-hidden">
         <div className="max-w-7xl mx-auto">
@@ -41,7 +41,7 @@ const Home = () => {
                   <span className="block xl:inline">Student Information</span>{' '}
                   <span className="block xl:inline">System</span>
                 </h1>
-                <p className="mt-3 text-base text-gray-100 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                <p className="mt-3 text-base text-gray-600 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                   A comprehensive platform for managing student data, courses, and academic results. 
                   Built with modern web technologies for a seamless user experience.
                 </p>
@@ -81,10 +81,10 @@ const Home = () => {
           </div>
         </div>
         <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-          <div className="h-56 w-full bg-gradient-to-r from-[#2564eb56] to-[#113db659] sm:h-72 md:h-96 lg:w-full lg:h-full flex items-center justify-center">
-            <div className="text-white text-center p-8">
+          <div className="h-56 w-full bg-gradient-to-r sm:h-72 md:h-96 lg:w-full lg:h-full flex items-center justify-center">
+            <div className="text-blue-600 text-center p-8">
               <BookOpen className="h-24 w-24 mx-auto mb-4" />
-              <h2 className="text-3xl font-bold">Digital Campus Management</h2>
+              <h2 className="text-3xl font-bold ">Digital Campus Management</h2>
               <p className="mt-2 text-xl font-semibold text-gray-900">Streamlining academic administration</p>
             </div>
           </div>
