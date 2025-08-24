@@ -30,7 +30,7 @@ const Home = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-[url('University.jpg')] bg-white bg-opacity-50 bg-cover">
+    <div className="min-h-screen bg-[url('univer.svg')] bg-white bg-opacity-50 bg-cover">
       {/* Hero section */}
       <div className="relative overflow-hidden">
         <div className="max-w-7xl mx-auto">
